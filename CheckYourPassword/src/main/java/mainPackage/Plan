@@ -1,0 +1,28 @@
+
+        // Work to file!!
+                                         MainInterfaceSecurityApp  |-- LanguageGramma
+                                                   |
+                                                   |
+                                                   |
+                                                   |
+                                                   |
+                                         ClassCheckSecurityPassword | -- PasswordLenght()           String : int
+                                                   |                | -- UperCaseAndDownCase()      String : int
+                                                   |                | -- CheckForNumbersPassword()  String : int
+                                                   |                | -- SpecialChar()              String : int
+                                                   |                | -- PercentageCheck()          int    : int
+                                                   |
+                                                   |
+                                              ProcessingData   -->  | -- ResultCheck()        int : int
+                                                    |               | -- RecomendPassword()   int : String
+                                                    |               | -- ???()                ??? : ???
+                                                    |               | -- ???()                ??? : ???
+                                                    |
+                                                    |
+                                                ResultData   -----> | -- jhng : int
+                                                    |               | -- ???()
+                                                    |               | -- ???()
+                                                    |               | -- ???()
+                                                    |
+                                                    |
+                                                   GUI

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="299.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClassStyleController">
+   <children>
+      <Label layoutX="14.0" layoutY="-7.0" prefHeight="17.0" prefWidth="174.0" text="CP" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="71.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="57.0" text="developed for JSV corp." textFill="WHITE" />
+      <Text fill="WHITE" layoutX="27.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write Your Password :" wrappingWidth="272.8033218383789">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="passwordFiledUser" layoutX="27.0" layoutY="123.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextField fx:id="passwordFiledRecomondedPass" layoutX="27.0" layoutY="208.0" prefHeight="25.0" prefWidth="273.0" />
+      <Text fill="WHITE" layoutX="27.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recomonded Password :" wrappingWidth="293.4699478149414">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <ToggleButton fx:id="ruTongleButton" layoutX="489.0" layoutY="14.0" mnemonicParsing="false" onAction="#ruTongleButtonClick" prefHeight="25.0" prefWidth="41.0" text="RU" />
+      <ToggleButton fx:id="enToungleButton" layoutX="530.0" layoutY="14.0" mnemonicParsing="false" onAction="#enToungleButtonClick" prefHeight="25.0" prefWidth="41.0" text="EN" />
+      <Text fx:id="percentageText" fill="WHITE" layoutX="398.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="139.99992879231775">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="544.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%" wrappingWidth="41.33333333333326">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="426.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="reliability :" wrappingWidth="125.33333333333337">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="recomendationText" fill="WHITE" layoutX="27.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="247.47004318237305">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="checkButton" layoutX="436.0" layoutY="244.0" mnemonicParsing="false" onAction="#checkButtonClick" prefHeight="25.0" prefWidth="63.0" text="Check" />
+   </children>
+</AnchorPane>
