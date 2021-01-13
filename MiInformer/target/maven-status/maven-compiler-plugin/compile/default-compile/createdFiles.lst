@@ -1,0 +1,13 @@
+mainPackage\MainClass.class
+mainLogic\LoagWindow.class
+mainLogic\DateManager.class
+controllers\StyleControllerRu.class
+mainLogic\WtherClass.class
+controllers\SettingsWindowController.class
+mainLogic\Wther.class
+controllers\FerstWindowController.class
+mainLogic\Currency.class
+fileSettings\FileManager.class
+Interfaces\Manager.class
+controllers\StyleController.class
+mainLogic\ApplicationManager.class
