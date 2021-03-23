@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutY="38.0" prefHeight="362.0" prefWidth="600.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="443.0" prefWidth="585.0" style="-fx-background-color: #C0C0C0;">
+               <children>
+                  <Pane layoutX="14.0" layoutY="12.0" prefHeight="339.0" prefWidth="200.0" style="-fx-background-color: #DCDCDC;">
+                     <children>
+                        <ImageView fx:id="avatar" fitHeight="130.0" fitWidth="139.0" layoutX="35.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../DefaultImages/defaultAvatar.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="name" layoutX="27.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="LastName" layoutX="27.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                     </children></Pane>
+                  <Region layoutX="246.0" layoutY="13.0" prefHeight="331.0" prefWidth="317.0" style="-fx-background-color: white;" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="311.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
