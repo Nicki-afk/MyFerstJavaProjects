@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="279.0" prefWidth="394.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EnStyleController">
+   <children>
+      <TextField fx:id="getNamePasswordFiled" layoutX="186.0" layoutY="51.0" prefHeight="25.0" prefWidth="178.0" promptText="name password" />
+      <Text layoutX="195.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Password" wrappingWidth="139.13467407226562">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label layoutX="311.0" layoutY="273.0" text="alpha-version-1.1.0.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save Password" wrappingWidth="139.13467407226562">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="saveNamePasswordFiled" layoutX="9.0" layoutY="53.0" promptText="name password" />
+      <TextField fx:id="savePasswordFiled" layoutX="9.0" layoutY="118.0" prefHeight="25.0" prefWidth="105.0" promptText="password" />
+      <Text layoutX="12.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate Password">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="getButton" layoutX="293.0" layoutY="118.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="37.0">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/uploadarrow.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="saveButton" layoutX="117.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/installIcon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="generatePasswordFiled" editable="false" layoutX="15.0" layoutY="208.0" prefHeight="25.0" prefWidth="249.0" promptText="password" />
+      <Button fx:id="generateButton" layoutX="263.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="generate" />
+      <Button fx:id="settingsButton" layoutX="334.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="44.0" style="-fx-background-color: #DCDCDC;">
+         <graphic>
+            <ImageView fx:id="imageButton" fitHeight="31.0" fitWidth="36.0">
+               <image>
+                  <Image url="@../images/SettingsImage.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text fx:id="errorText" fill="RED" layoutX="14.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="282.1366882324219" />
+      <PasswordField fx:id="getPasswordFiled" editable="false" layoutX="186.0" layoutY="118.0" prefHeight="25.0" prefWidth="105.0" />
+      <Button fx:id="copiButton" layoutX="331.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0">
+         <graphic>
+            <ImageView fitHeight="17.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/file_copy_icon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="settingsPasswordButton" layoutX="329.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/settingsPassword.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="saveDateFiled" alignment="CENTER" editable="false" layoutX="9.0" layoutY="82.0" prefHeight="24.0" prefWidth="149.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="getDateFiled" editable="false" layoutX="186.0" layoutY="82.0" prefHeight="25.0" prefWidth="178.0" />
+   </children>
+</AnchorPane>

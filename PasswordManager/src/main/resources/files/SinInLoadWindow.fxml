@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<AnchorPane prefHeight="278.0" prefWidth="296.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoadWindow">
+    <children>
+        <Text fill="LIGHTGRAY" layoutX="100.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SING IN" wrappingWidth="94.80340576171875">
+            <font>
+                <Font name="System Bold" size="23.0" />
+            </font>
+        </Text>
+        <Label layoutX="15.0" layoutY="5.0" prefHeight="26.0" prefWidth="132.0" text="PassAdmin" textFill="LIGHTGRAY">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+        <Text fill="LIGHTGRAY" layoutX="134.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JSV SRL Corp." wrappingWidth="72.17578125">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Text>
+        <Text fx:id="errorText" fill="RED" layoutX="18.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="164.13677978515625" />
+      <ProgressIndicator fx:id="bar" layoutX="131.0" layoutY="123.0" prefHeight="58.0" prefWidth="61.0" progress="0.0" />
+    </children>
+</AnchorPane>
